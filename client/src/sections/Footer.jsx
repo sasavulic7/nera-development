@@ -41,11 +41,31 @@ function Footer() {
               </a>
             ))}
           </nav>
+        </div>
+
+        {/* Contact & Social */}
+        <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-end sm:gap-6">
+
+          <a
+            href="mailto:developmentnera@gmail.com"
+            className="text-xs text-white/35 transition-colors hover:text-[#19D3C5]"
+          >
+            developmentnera@gmail.com
+          </a>
+
+          <a
+            href="https://www.instagram.com/neradevelopment/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-white/35 transition-colors hover:text-[#19D3C5]"
+          >
+            Instagram
+          </a>
 
         </div>
 
         {/* Bottom */}
-        <div className="mt-12 flex flex-col gap-3 border-t border-white/[0.06] pt-6 text-[10px] text-white/20 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-8 flex flex-col gap-3 border-t border-white/[0.06] pt-6 text-[10px] text-white/20 sm:flex-row sm:items-center sm:justify-between">
 
           <span>
             © {new Date().getFullYear()} Nera Development. Sva prava zadržana.
