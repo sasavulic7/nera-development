@@ -154,7 +154,7 @@ function Contact() {
                     </p>
 
                     <p className="mt-1 text-sm text-white/60">
-                      hello@neradevelopment.rs
+                      developmentnera@gmail.com
                     </p>
                   </div>
                 </div>
